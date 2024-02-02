@@ -1,0 +1,21 @@
+.kiboko-title {
+  text-align: center;
+  font-size: 26px;
+}
+
+.subtitle-home {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.subtitle-3-home {
+  font-size: 20px;
+  font-weight: 250;
+  text-align: center;
+}
+.text-home {
+  text-align: center;
+  font-weight: 300;
+}
