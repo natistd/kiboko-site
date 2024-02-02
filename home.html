@@ -22,9 +22,25 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="home/src/home.css" />
+    <script
+      src="https://kit.fontawesome.com/756e9ef47b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
+      <div class="home-video">
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Y9FeAql2sSk?si=HO_Jvvwn_8mwuYQz&autoplay=1"
+            title="Kiboko"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+        </div>
+      </div>
       <div class="home-page">
         <div class="home-page-intro">
           <h1 class="kiboko-title">Kiboko Voyages</h1>
@@ -35,14 +51,56 @@
           </p>
         </div>
         <h2 class="subtitle-home">Servicios</h2>
-        <ul>
-          <li>Itinerarios a la medida</li>
-          <li>Viajes a África</li>
-          <li>Vuelos a destinos remotos</li>
-          <li>Cruceros</li>
-          <li>Trenes</li>
-          <li>Trámite de visados</li>
-        </ul>
+        <div class="servicios">
+          <div class="row">
+            <div class="col-2">
+              <ul>
+                <li class="servicios-icon">
+                  <i class="fa-solid fa-compass-drafting"></i>
+                </li>
+                <li class="texto-servicios">Itinerarios a la medida</li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul>
+                <li class="servicios-icon">
+                  <i class="fa-solid fa-earth-africa"></i>
+                </li>
+                <li class="texto-servicios">Viajes a todo el mundo</li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul>
+                <li class="servicios-icon">
+                  <i class="fa-solid fa-paper-plane"></i>
+                </li>
+                <li class="texto-servicios">Vuelos a destinos remotos</li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul>
+                <li class="servicios-icon"><i class="fa-solid fa-ship"></i></li>
+                <li class="texto-servicios">Cruceros para explorar</li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul>
+                <li class="servicios-icon">
+                  <i class="fa-solid fa-train"></i>
+                </li>
+                <li class="texto-servicios">Trenes a lugares únicos</li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul>
+                <li class="servicios-icon">
+                  <i class="fa-solid fa-passport"></i>
+                </li>
+                <li class="texto-servicios">Trámite de visados</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <h2 class="subtitle-home">Experiencias</h2>
         <p class="text-home">
           Atrévase a descubrir, explorar, sentir y vivir experiencias exclusivas
@@ -66,7 +124,7 @@
           experiencia de viaje de lujo.
         </p>
       </div>
-      <h3 class="subtitle-3-home">Miembros de</h3>
+      <h3 class="subtitle-home">Miembros de</h3>
     </div>
   </body>
 </html>
